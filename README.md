@@ -4,14 +4,6 @@ A full-stack web application designed to facilitate remote learning by allowing 
 
 ---
 
-## 📌 Student Details
-
-- **Name:** Vamsi Krishna Meka  
-- **Reg. No:** CB.EN.U4CSE22527  
-- **Course:** B.Tech Computer Science and Engineering  
-- **Institution:** Amrita School of Computing  
-
----
 
 ## 📖 Abstract
 
