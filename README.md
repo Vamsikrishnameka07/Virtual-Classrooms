@@ -74,6 +74,3 @@ Developed with passion by Vamsi Krishna Meka.
  * 📧 Email: vkrishnameka@gmail.com
  * 🔗 LinkedIn: Meka Vamsi Krishna
 <!-- end list -->
-
-
-## 📂 Project Structure
