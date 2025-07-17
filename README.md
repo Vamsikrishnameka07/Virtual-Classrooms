@@ -64,23 +64,6 @@ This intelligent system prevents fake attendance and genuinely ensures student p
 
 ---
 
-## 📦 Getting Started: Installation Guide
-
-### 1. Clone the Repository
-
-git clone [https://github.com/svrajesh21/Virtual-Classrooms.git](https://github.com/svrajesh21/Virtual-Classrooms.git)
-cd Virtual-Classrooms
-
-2. Start the Frontend
-cd frontend
-npm install
-npm start
-
-3. Start the Backend
-cd backend
-npm install
-npm start
-
 ## 🧪 Environment Variables
 Before running the application, make sure to add your .env files with the appropriate API keys and Client IDs for seamless operation.
 ## 📝 License
