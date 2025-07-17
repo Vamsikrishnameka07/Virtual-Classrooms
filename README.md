@@ -1,95 +1,61 @@
-# Virtual Classroom System
+🚀 Virtual Classrooms: Your All-in-One Online Learning Hub
+Revolutionize the way you teach and learn online with Virtual Classrooms, a dynamic full-stack web application designed to streamline the educational experience. Built with a robust combination of React.js, Node.js, and MongoDB, this platform simplifies online teaching and learning, saving you valuable time and enhancing engagement.
+✨ Key Features & Benefits
+👩‍🏫 For Educators: Effortless Class Management
+ * Upload & Manage Classes: Seamlessly organize and present your course content.
+ * Track Student Attendance: Automated attendance tracking ensures accurate records and student participation.
+ * Post & Manage Assignments: Easily distribute, collect, and review assignments.
+ * Respond to Student Queries: Provide timely support and guidance to your students.
+🎓 For Students: A Centralized Learning Experience
+ * Browse & Join Classes: Discover and enroll in courses that pique your interest.
+ * Submit Assignments Online: Conveniently turn in your work from anywhere.
+ * Ask Questions & Get Help: Connect with teachers for clarification and support.
+ * Access All Study Content: Find everything you need in one organized place.
+⏱️ Designed to save up to 30% of manual study and coordination time, Virtual Classrooms empowers both teachers and students to focus on what truly matters: learning.
+🔒 Secure & Controlled Access
+Virtual Classrooms implements a robust access control system to maintain integrity and security.
+👥 Student vs. Teacher Access:
+ * Students: Easily sign up using the standard login/signup form on the homepage.
+ * Teachers: To ensure students cannot assume teacher roles, educators must register through the dedicated Admin Dashboard.
+   * 🛡️ Admin Dashboard Password: admin123
+🎥 Intelligent Attendance Logic:
+Attendance is automatically recorded for students, but only when it genuinely counts!
+ * Video Class Completion: Students must watch the uploaded video class.
+ * Minimum Completion Threshold: At least 70% of the video must be completed to register attendance.
+This intelligent system prevents fake attendance and genuinely ensures student participation.
+🛠️ Tech Stack
+This powerful application is built with modern, scalable technologies:
+| Frontend | Backend | Database |
+|---|---|---|
+| React.js | Node.js | MongoDB |
+📂 Project Structure
+The project is thoughtfully organized for clarity and ease of development:
+ * /frontend → React frontend
+ * /backend → Node.js
+ * /database → MongoDB
+📦 Getting Started: Installation Guide
+Ready to get started? Follow these simple steps to set up Virtual Classrooms on your local machine:
+ * Clone the Repository:
+   git clone https://github.com/svrajesh21/Virtual-Classrooms.git
+cd Virtual-Classrooms
 
-A full-stack web application designed to facilitate remote learning by allowing teachers to upload recorded lectures and assignments, and enabling students to access content and submit work in a structured, secure environment.
+ * Start the Frontend:
+   cd frontend
+npm install
+npm start
 
----
+ * Start the Backend:
+   cd backend
+npm install
+npm start
 
-
-## 📖 Abstract
-
-The Virtual Classroom System is a web-based learning platform that supports recorded content delivery. It enables teachers to share materials and assignments while allowing students to view classes, submit tasks, and monitor their learning. The system is built with modern web technologies ensuring scalability, security, and ease of use.
-
----
-
-## 🎯 Objectives
-
-- Develop a virtual classroom focused on recorded class delivery.
-- Allow admin-controlled teacher registration.
-- Enable self-registration for students.
-- Provide functionality for assignment submission and tracking.
-
----
-
-## 🛠️ Tech Stack
-
-| Layer         | Technology            |
-|---------------|------------------------|
-| **Frontend**  | React.js              |
-| **Backend**   | Node.js + Express.js  |
-| **Database**  | MongoDB               |
-| **Storage**   | Google Drive (video links) |
-| **Auth**      | Role-based login (Teacher/Student) |
-
----
-
-## 🧱 System Architecture
-
-### 👤 Roles:
-- **Admin:** Registers teachers manually.
-- **Teacher:** Uploads video links, posts assignments.
-- **Student:** Registers, views videos, submits assignments.
-
-### 📁 Database Collections:
-- `teachers` (in `Virtual` database)
-- `students` (in `Virtual` database)
-- `videos` and `assignments` per course/module
-
----
-
-## 📦 Modules
-
-### 1. User Authentication
-- Secure login based on role
-- Password hashing and validation
-
-### 2. Video Management
-- Teachers upload and organize Google Drive links
-- Sorted by course/module
-
-### 3. Assignment Handling
-- Teachers create and assign tasks
-- Students submit file uploads as responses
-
-### 4. Dashboards
-- Teacher and student dashboards
-- Summary of recent classes, submissions, and alerts
-
----
-
-## 🌟 Key Features
-
-- 🟢 Flexible recorded class model
-- 🔐 Role-based access and login
-- 📤 Assignment upload & submission flow
-- 📁 MongoDB-backed data structure
-- ⚙️ RESTful API using Express.js
-- 🧑‍🎓 Real-time student registration
-- ✨ Clean React UI with separate views
-
----
-
-## 🔮 Future Enhancements
-
-- Push/email notifications for updates
-- Dashboard analytics for engagement
-- Advanced filtering and UI improvements
-- Profile customization for all users
-- Integration with cloud services (e.g., AWS, Firebase Storage)
-
----
-
-## ✅ Conclusion
-
-The Virtual Classroom System offers a scalable, secure, and user-friendly platform for recorded content delivery and remote assignment management. It creates a bridge between educators and learners and forms a foundation for more advanced features in the academic technology landscape.
-
----
+🧪 Environment Variables
+Before running the application, make sure to add your .env files with the appropriate API keys and Client IDs for seamless operation.
+📝 License
+This project is open source, encouraging collaboration and community contributions.
+🙋‍♂️ Author
+Developed with passion by Vamsi Krishna Meka.
+📬 Connect with Me!
+Have questions, feedback, or interested in collaboration? Feel free to reach out!
+ * 📧 Email: vkrishnameka@gmail.com
+ * 🔗 LinkedIn: Meka Vamsi Krishna
